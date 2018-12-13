@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        --color--primary: #a4e6fc;
+        font-family: sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      <uc-tooltip class="important" text="hello world">
+        <span class="highlight">Web Components</span>
+      </uc-tooltip>
+      are awesome!
+    </p>
+    <uc-tooltip text="hello world"></uc-tooltip> Second
+    <a is="uc-confirm-link" href="http://google.com">Google</a>
+
+    <script src="tooltip.js"></script>
+    <script src="confirm-link.js"></script>
+  </body>
+</html>
